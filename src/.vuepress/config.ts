@@ -5,7 +5,7 @@ export default defineUserConfig({
   base: "/code-notes/",
 
   lang: "zh-CN",
-  title: "文档演示",
+  title: "code notes",
   description: "vuepress-theme-hope 的文档演示",
 
   theme,
