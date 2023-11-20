@@ -17,5 +17,11 @@ export default sidebar({
       children: "structure",
     },
     "slides",
+    {
+      text: "笔记",
+      prefix: "notes/",
+      link: "notes",
+      children: "structure"
+    }
   ],
 });
