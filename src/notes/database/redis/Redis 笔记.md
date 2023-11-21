@@ -280,11 +280,11 @@ Redis Sentinel 与 Redis 主从复制模式只是多了若干 Sentinel 节点，
 
 ![[Pasted image 20231018002937.png]]
 
-- **客观下线：**大部分 Sentinel 节点都对主节点的下线做了同意的判定。当 Sentinel 主观下线的节点是**主节点**时，该 Sentinel 节点会通过 sentinel is-master-down-by-addr 命令向其他 Sentinel 节点询问对主节点的判断，当超过<quorum>个数，Sentinel 节点认为主节点确实有问题，这时该 Sentinel 节点会做出客观下线的决定。
+- **客观下线：**大部分 Sentinel 节点都对主节点的下线做了同意的判定。当 Sentinel 主观下线的节点是**主节点**时，该 Sentinel 节点会通过 sentinel is-master-down-by-addr 命令向其他 Sentinel 节点询问对主节点的判断，当超过 quorum 个数，Sentinel 节点认为主节点确实有问题，这时该 Sentinel 节点会做出客观下线的决定。
 
 ![[Pasted image 20231018003021.png]]
 
-sentinel monitor <master-name> <ip> <port> **<quorum>** 命令，设置哨兵
+sentinel monitor master-name ip port **quorum** 命令，设置哨兵
 
 ![[Pasted image 20231018003059.png]]
 
@@ -322,5 +322,3 @@ Gossip 协议。
 ![[Pasted image 20231018003213.png]]
 
 **meet** 通知新节点加入。
-
-**ping**
