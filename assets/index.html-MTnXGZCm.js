@@ -1,0 +1,1 @@
+import{_ as l}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as n,c as t,a as e}from"./app-kEfL-mm4.js";const o={},c=e("ul",null,[e("li",null,"索引"),e("li",null,"事务"),e("li",null,"持久化"),e("li",null,"主从")],-1),_=[c];function s(i,r){return n(),t("div",null,_)}const d=l(o,[["render",s],["__file","index.html.vue"]]);export{d as default};
