@@ -20,7 +20,7 @@ export default sidebar({
     {
       text: "笔记",
       prefix: "notes/",
-      link: "notes",
+      link: "notes/",
       children: "structure"
     }
   ],

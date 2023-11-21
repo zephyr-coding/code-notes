@@ -1,7 +1,7 @@
 ---
 home: true
 icon: home
-title: 代码笔记
+title: 主页
 heroImage: /logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
@@ -260,7 +260,7 @@ highlights:
         link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
 
 copyright: false
-footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-present Mr.Hope
+footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议，版权所有 © 2019-present Mr.Hope
 ---
 
 这是项目主页的案例。你可以在这里放置你的主体内容。
